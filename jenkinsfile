@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/NamanPatil08/Git_dir.git'
+                git 'https://github.com/NamanPatil08/Docker.git'
             }
         }
         stage('Build Docker Image') {
